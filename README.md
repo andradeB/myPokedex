@@ -2,14 +2,28 @@
 
 Enciclopédia virtual portátil de alta tecnologia que os treinadores Pokémon transportam para registra todas as espécies diferentes de Pokémon que são encontradas durante a sua viagem como treinadores.
 
-![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/filter.jpg)
-
 ## Funcionalidades!
 
 - 964 Pokémon catalogados pela [pokeapi](https://pokeapi.co/).
 - Busca pelo nome, ou número do Pokémon.
 - Infinity scroll, isso mesmo, deslize para carregar mais, o céu ~~ou a memória~~, é o limite!
 - Veja o status do Pokémon ~~e aproveite porque achar a formula e entender deu trabalho~~.
+
+
+#### Home
+![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/home.jpg)
+#### Home -> Generation filter
+![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/generation.jpg)
+#### Home -> Sort
+![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/sort.jpg)
+#### Home -> Filter
+![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/filter.jpg)
+#### Home -> Profile
+![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/profile.jpg)
+#### Home -> Pokemon não encontrado
+![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/not-found.jpg)
+
+
 
 ### Ferramentas utilizadas concientemente
 
