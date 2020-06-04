@@ -22,7 +22,7 @@ Enciclopédia virtual portátil de alta tecnologia que os treinadores Pokémon t
 - [styled-components] - Faz magica, você escreve o estilo, ele devolve um componente estilizado.
 
 
->design feito por [Flavio Farias](https://dribbble.com/flaviofpsj)
+>Design feito por [Flavio Farias](https://dribbble.com/flaviofpsj)
 
 ### Installation
 
