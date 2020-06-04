@@ -2,6 +2,8 @@
 
 Enciclopédia virtual portátil de alta tecnologia que os treinadores Pokémon transportam para registra todas as espécies diferentes de Pokémon que são encontradas durante a sua viagem como treinadores.
 
+![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/filter.jpg)
+
 ## Funcionalidades!
 
 - 964 Pokémon catalogados pela [pokeapi](https://pokeapi.co/).
