@@ -26,7 +26,7 @@ Enciclopédia virtual portátil de alta tecnologia que os treinadores Pokémon t
 
 ### Instalação
 
-Amigo treinador, começe instalando as dependencia, escolha seu melhor package manager
+Amigo treinador, comesse instalando as dependencia, escolha seu melhor package manager
 
 ```sh
 $ npm install
