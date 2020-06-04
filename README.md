@@ -65,9 +65,6 @@ $ yarn android
 - Filtrar por tipo do pokemon, peso, altura, status
 - Ordenar por numero ou ordem alfabética
 
-## License
-
-MIT
 
 [react]: https://pt-br.reactjs.org/
 [react-native]: https://reactnative.dev/
