@@ -21,10 +21,7 @@ Enciclopédia virtual portátil de alta tecnologia que os treinadores Pokémon t
 - [react-native-multi-slider] - aqui também.
 - [styled-components] - Faz magica, você escreve o estilo, ele devolve um componente estilizado.
 
-
->Design feito por [Flavio Farias](https://dribbble.com/flaviofpsj)
-
-### Installation
+### Instalação
 
 Amigo treinador, começe instalando as dependencia, escolha seu melhor package manager
 
@@ -58,7 +55,7 @@ $ yarn android
 
 >Caso esteja interessado em saber como é calculado os status, poderá ver [aqui](https://gaming.stackexchange.com/questions/194104/is-there-a-formula-to-calculate-evs)
 
-
+>Design feito por [Flavio Farias](https://dribbble.com/flaviofpsj)
 
 ## Proximas funcionalidades !
 
