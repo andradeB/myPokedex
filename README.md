@@ -9,22 +9,6 @@ Enciclopédia virtual portátil de alta tecnologia que os treinadores Pokémon t
 - Infinity scroll, isso mesmo, deslize para carregar mais, o céu ~~ou a memória~~, é o limite!
 - Veja o status do Pokémon ~~e aproveite porque achar a formula e entender deu trabalho~~.
 
-
-#### Home
-![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/home.jpg)
-#### Home -> Generation filter
-![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/generation.jpg)
-#### Home -> Sort
-![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/sort.jpg)
-#### Home -> Filter
-![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/filter.jpg)
-#### Home -> Profile
-![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/profile.jpg)
-#### Home -> Pokemon não encontrado
-![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/not-found.jpg)
-
-
-
 ### Ferramentas utilizadas concientemente
 
 - [react] - Biblioteca js para criar interface (Cria a parte bonita ~~deveria~~)!
@@ -52,6 +36,26 @@ Ou
 $ yarn
 $ yarn android
 ```
+
+
+## Você deverá ver isso
+
+#### Home
+![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/home.jpg)
+#### Home -> Generation filter
+![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/generation.jpg)
+#### Home -> Sort
+![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/sort.jpg)
+#### Home -> Filter
+![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/filter.jpg)
+#### Home -> Pokemon não encontrado
+![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/not-found.jpg)
+#### Home -> Profile
+![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/profile.jpg)
+
+>Caso esteja interessado em saber como é calculado os status, poderá ver [aqui(https://gaming.stackexchange.com/questions/194104/is-there-a-formula-to-calculate-evs)]
+
+
 
 ## Proximas funcionalidades !
 
