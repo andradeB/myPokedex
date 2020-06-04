@@ -41,19 +41,19 @@ $ yarn android
 ## Você deverá ver isso
 
 #### Home
-![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/home.jpg)
+![Home img](https://github.com/andradeB/myPokedex/blob/master/exemples/home.jpg)
 #### Home -> Generation filter
-![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/generation.jpg)
+![Generation img](https://github.com/andradeB/myPokedex/blob/master/exemples/generation.jpg)
 #### Home -> Sort
-![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/sort.jpg)
+![alt img](https://github.com/andradeB/myPokedex/blob/master/exemples/sort.jpg)
 #### Home -> Filter
-![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/filter.jpg)
+![Filter img](https://github.com/andradeB/myPokedex/blob/master/exemples/filter.jpg)
 #### Home -> Pokemon não encontrado
-![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/not-found.jpg)
+![Pokemon img](https://github.com/andradeB/myPokedex/blob/master/exemples/not-found.jpg)
 #### Home -> Profile
-![alt text](https://github.com/andradeB/myPokedex/blob/master/exemples/profile.jpg)
+![Profile img](https://github.com/andradeB/myPokedex/blob/master/exemples/profile.jpg)
 
->Caso esteja interessado em saber como é calculado os status, poderá ver [aqui(https://gaming.stackexchange.com/questions/194104/is-there-a-formula-to-calculate-evs)]
+>Caso esteja interessado em saber como é calculado os status, poderá ver [aqui](https://gaming.stackexchange.com/questions/194104/is-there-a-formula-to-calculate-evs)
 
 
 
