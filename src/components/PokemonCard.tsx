@@ -1,11 +1,11 @@
 import React from 'react';
 import Styled from 'styled-components/native';
-import Badge from '../atom/Badged';
-import Pokemon from '../../Models/Types/Pokemon';
-import colors from '../../styles/colors';
-import {borderRadius} from '../../styles/metrics';
-import {fontFamily, fontsSize} from '../../styles/fonts';
-import {vw} from '../../styles/metrics';
+import Badge from './Badged';
+import Pokemon from '../Models/Types/Pokemon';
+import colors from '../styles/colors';
+import {borderRadius} from '../styles/metrics';
+import {fontFamily, fontsSize} from '../styles/fonts';
+import {vw} from '../styles/metrics';
 
 export interface Item extends Pokemon {
   flat: boolean;
@@ -14,24 +14,16 @@ export interface Item extends Pokemon {
 }
 
 const PokemonCard: React.FC<Item> = (props) => {
-  //#region  Functions
-
   const getBadge = (item: any, i: number) => <Badge key={i} type={item.name} />;
-
-  //#endregion
-
-  //#region Renders
 
   const renderPatter = () =>
     !props.hideBackground ? (
-      <ImagePattern source={require('../../assets/images/Pattern.png')} />
+      <ImagePattern source={require('../assets/images/Pattern.png')} />
     ) : null;
   const renderPokeball = () =>
     !props.hideBackground ? (
-      <ImagePokeball source={require('../../assets/images/Pokeball.png')} />
+      <ImagePokeball source={require('../assets/images/Pokeball.png')} />
     ) : null;
-
-  //#endregion
 
   const shadow = {
     shadowOffset: {
@@ -74,8 +66,6 @@ const PokemonCard: React.FC<Item> = (props) => {
     </Container>
   );
 };
-
-//#region Styled Components
 
 const TextId = Styled.Text`
   color: white;

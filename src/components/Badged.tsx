@@ -1,10 +1,10 @@
 import * as React from 'react';
 import Styled from 'styled-components/native';
-import {fontsSize} from '../../styles/fonts';
-import {vh, vw} from '../../styles/metrics';
+import {fontsSize} from '../styles/fonts';
+import {vh, vw} from '../styles/metrics';
 
-import Icon from '../../assets/icons';
-import colors from '../../styles/colors';
+import Icon from '../assets/icons';
+import colors from '../styles/colors';
 
 type Props = {
   type: string;

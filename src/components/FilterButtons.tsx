@@ -1,8 +1,8 @@
 import * as React from 'react';
 import Styled from 'styled-components/native';
-import Icon from '../../assets/icons';
-import {fontsSize} from '../../styles/fonts';
-import {vh} from '../../styles/metrics';
+import Icon from '../assets/icons';
+import {fontsSize} from '../styles/fonts';
+import {vh} from '../styles/metrics';
 
 export type Props = {
   onPressFilterGeneration: () => void;

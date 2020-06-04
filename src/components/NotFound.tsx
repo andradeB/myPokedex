@@ -1,7 +1,7 @@
 import React from 'react';
 import Styled from 'styled-components/native';
-import {fontFamily, fontColors, fontsSize} from '../../styles/fonts';
-import {vh, vw} from '../../styles/metrics';
+import {fontFamily, fontColors, fontsSize} from '../styles/fonts';
+import {vh, vw} from '../styles/metrics';
 import Button from './Button';
 
 export type Props = {
@@ -11,7 +11,7 @@ export type Props = {
 const NotFound: React.FC<Props> = (props) => {
   return (
     <Container>
-      <NotFoundImage source={require('../../assets/images/bg-search.png')} />
+      <NotFoundImage source={require('../assets/images/bg-search.png')} />
       <Title> Pokemon not found :(</Title>
       <Subtitle>Try changing the search terms !</Subtitle>
       <ButtonContainer>

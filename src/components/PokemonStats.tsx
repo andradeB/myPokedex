@@ -1,10 +1,10 @@
 import React from 'react';
 import Styled from 'styled-components';
 import {ProgressBar} from '@react-native-community/progress-bar-android';
-import Pokemon from '../../Models/Types/Pokemon';
-import {vw, vh} from '../../styles/metrics';
-import {fontColors, fontFamily, fontsSize} from '../../styles/fonts';
-import colors from '../../styles/colors';
+import Pokemon from '../Models/Types/Pokemon';
+import {vw, vh} from '../styles/metrics';
+import {fontColors, fontFamily, fontsSize} from '../styles/fonts';
+import colors from '../styles/colors';
 
 export type Props = {
   name: string;
@@ -16,8 +16,6 @@ export type Props = {
 };
 
 const PokemonStats: React.FC<Props> = (props) => {
-  console.log(props);
-
   function getPercent(max: number, min: number, value: number) {
     const renge = max - min;
     const target = value - min;

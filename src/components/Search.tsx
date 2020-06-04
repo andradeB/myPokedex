@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import Icon from '../../assets/icons';
+import Icon from '../assets/icons';
 import Styled from 'styled-components/native';
-import {borderRadius, padding} from '../../styles/metrics';
-import {fontColors, fontsSize, fontFamily} from '../../styles/fonts';
+import {borderRadius, padding} from '../styles/metrics';
+import {fontColors, fontsSize, fontFamily} from '../styles/fonts';
 import _ from 'lodash';
 
 export type Props = {

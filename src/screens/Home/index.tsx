@@ -9,8 +9,8 @@ import RBSheet from 'react-native-raw-bottom-sheet';
 import FilterGenerationSheet from './sheets/FilterGenerationSheet';
 import SortSheet from './sheets/SortSheet';
 import IPage from '../../Models/PageInterfaces/IPage';
-import FilterButtons, {Props} from '../../components/atom/FilterButtons';
-import Search from '../../components/atom/Search';
+import FilterButtons, {Props} from '../../components/FilterButtons';
+import Search from '../../components/Search';
 import {fontFamily, fontColors, fontsSize} from '../../styles/fonts';
 import {padding, borderRadius, vh} from '../../styles/metrics';
 import PokemonService from '../../service/PokemonService';
@@ -20,9 +20,9 @@ import Sort from '../../Models/Types/Sort';
 import {SetData} from '../../store/Filter/actions';
 import FilterSheet from './sheets/FilterSheet';
 import {vw} from '../../styles/metrics';
-import NotFound from '../../components/atom/NotFound';
-import ErrorList from '../../components/atom/ErrorList';
-import PokemonCard from '../../components/atom/PokemonCard';
+import NotFound from '../../components/NotFound';
+import ErrorList from '../../components/ErrorList';
+import PokemonCard from '../../components/PokemonCard';
 
 const container = {
   backgroundColor: 'transparent',
@@ -33,7 +33,6 @@ const draggableIcon = {
 };
 
 const HomePage: React.FC<IPage> = (props) => {
-  //#region  Properties
   const filter = useSelector<Filter>((state) => state.filter);
   const dispatch = useDispatch();
 
@@ -48,13 +47,9 @@ const HomePage: React.FC<IPage> = (props) => {
 
   const filterActions: Props = {
     onPressFilter: () => filterRef.current?.open(),
-    onPressFilterGeneration: () => filterRef.current?.open(),
+    onPressFilterGeneration: () => filterGenerationRef.current?.open(),
     onPressSort: () => sortRef.current?.open(),
   };
-
-  //#endregion
-
-  //#region Functions
 
   function restartListMessages() {
     setNotFound(false);
@@ -110,9 +105,6 @@ const HomePage: React.FC<IPage> = (props) => {
   const pusToProfile = (pokemon: Pokemon) =>
     props.navigation.navigate('Details', {pokemon: pokemon});
 
-  //#endregion
-
-  //#region Renders
   function renderHeader() {
     return (
       <>
@@ -159,8 +151,6 @@ const HomePage: React.FC<IPage> = (props) => {
     );
   }
 
-  //#endregion
-
   return (
     <View>
       <BackgroundHeader source={require('../../assets/images/bg_home.png')} />
@@ -174,8 +164,6 @@ const HomePage: React.FC<IPage> = (props) => {
         onEndReached={() => {
           if (data.length != 1) {
             loadItem();
-          } else {
-            console.log('no');
           }
         }}
         onEndReachedThreshold={0.3}
@@ -226,7 +214,6 @@ const HomePage: React.FC<IPage> = (props) => {
   );
 };
 
-//#region Styled Components
 const Sheet = Styled.View`
   background-color: white;
   padding-horizontal: ${padding.normal};
@@ -260,7 +247,5 @@ const List = Styled.FlatList`
     paddingBottom: 0;
     marginBottom: 10px;
 `;
-
-//#endregion
 
 export default HomePage;

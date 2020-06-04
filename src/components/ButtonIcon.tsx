@@ -1,7 +1,7 @@
 import React from 'react';
-import Icon from '../../assets/icons';
-import colors from '../../styles/colors';
-import {vh, vw} from '../../styles/metrics';
+import Icon from '../assets/icons';
+import colors from '../styles/colors';
+import {vh, vw} from '../styles/metrics';
 import Styled from 'styled-components';
 
 export type Props = {

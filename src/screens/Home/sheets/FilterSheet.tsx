@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import {View} from 'react-native';
-import Button from '../../../components/atom/Button';
+import Button from '../../../components/Button';
 import MultiSlider from '@ptomasroos/react-native-multi-slider';
-import ButtonIcon from '../../../components/atom/ButtonIcon';
+import ButtonIcon from '../../../components/ButtonIcon';
 import Styled from 'styled-components';
 import Header from './Header';
 import {vh, vw} from '../../../styles/metrics';

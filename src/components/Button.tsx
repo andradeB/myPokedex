@@ -1,7 +1,7 @@
 import React from 'react';
 import Styled from 'styled-components/native';
-import {borderRadius} from '../../styles/metrics';
-import {fontsSize, fontFamily, fontColors} from '../../styles/fonts';
+import {borderRadius} from '../styles/metrics';
+import {fontsSize, fontFamily, fontColors} from '../styles/fonts';
 
 interface IButton {
   label: string;

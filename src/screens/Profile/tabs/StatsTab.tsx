@@ -7,14 +7,12 @@ import {borderRadius, padding} from '../../../styles/metrics';
 import {fontColors, fontFamily, fontsSize} from '../../../styles/fonts';
 import PokemonStats, {
   Props as StatsProps,
-} from '../../../components/atom/PokemonStats';
+} from '../../../components/PokemonStats';
 import Stats from '../../../Models/Types/Stats';
 import {calculateHp, calculateStats} from '../../../utils';
 
 const StatsTab: React.FC<Pokemon> = (props) => {
   const [stats, setStats] = useState([]);
-
-  console.log(props);
 
   useEffect(() => {
     const hp = getRengeHp(props.hp);

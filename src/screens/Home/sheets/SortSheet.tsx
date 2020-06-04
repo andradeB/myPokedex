@@ -2,7 +2,7 @@ import React from 'react';
 import Styled from 'styled-components/native';
 import {useState, useEffect} from 'react';
 import Header from './Header';
-import Button from '../../../components/atom/Button';
+import Button from '../../../components/Button';
 import Sort from '../../../Models/Types/Sort';
 import {padding} from '../../../styles/metrics';
 

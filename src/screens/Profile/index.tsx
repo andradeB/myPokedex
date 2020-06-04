@@ -3,7 +3,7 @@ import {useState} from 'react';
 import IPage from '../../Models/PageInterfaces/IPage';
 import Styled from 'styled-components';
 import Pokemon from '../../Models/Types/Pokemon';
-import PokemonCard from '../../components/atom/PokemonCard';
+import PokemonCard from '../../components/PokemonCard';
 import colors from '../../styles/colors';
 import {padding, vh, vw} from '../../styles/metrics';
 import {fontsSize, fontFamily, fontColors} from '../../styles/fonts';

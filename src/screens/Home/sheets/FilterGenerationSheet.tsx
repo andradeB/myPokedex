@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import GenerationButton from '../../../components/atom/GenerationButton';
+import GenerationButton from '../../../components/GenerationButton';
 import Header from './Header';
 import Styled from 'styled-components';
 import {padding} from '../../../styles/metrics';

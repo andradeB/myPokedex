@@ -1,8 +1,8 @@
 import React from 'react';
 import {Image} from 'react-native';
 import Styled from 'styled-components';
-import {borderRadius} from '../../styles/metrics';
-import {fontFamily, fontColors, fontsSize} from '../../styles/fonts';
+import {borderRadius} from '../styles/metrics';
+import {fontFamily, fontColors, fontsSize} from '../styles/fonts';
 
 interface IButton {
   selected?: boolean;
@@ -18,13 +18,13 @@ const GenerationButton: React.FC<IButton> = (props) => {
       style={{backgroundColor: props.selected ? '#EA5D60' : '#F2F2F2'}}>
       <ImageGeneration source={props.image} />
       <ImagePokeball
-        source={require('../../assets/images/generation-pokeball.png')}
+        source={require('../assets/images/generation-pokeball.png')}
       />
       <Label style={{color: props.selected ? 'white' : null}}>
         {props.label}
       </Label>
       <ImagePattern
-        source={require('../../assets/images/generation-pattern.png')}
+        source={require('../assets/images/generation-pattern.png')}
       />
     </Button>
   );
