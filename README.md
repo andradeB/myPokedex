@@ -1,3 +1,6 @@
+[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/andradeB/myPokedex/blob/master/LICENSE)
+
+
 # Pokedex
 
 Enciclopédia virtual portátil de alta tecnologia que os treinadores Pokémon transportam para registra todas as espécies diferentes de Pokémon que são encontradas durante a sua viagem como treinadores.
